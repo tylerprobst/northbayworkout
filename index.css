@@ -1,9 +1,68 @@
-body{
-	background: url('lax1.jpeg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.brand-logo {
+	padding-left: 1em !important;
 }
 
+.container-content {
+	margin-top: 10em;
+}
+
+.container-header {
+	padding-top: 4em;
+}
+
+#landing-container {
+	position: absolute;
+	top: 0px;
+	height: 100vh;
+	width: 100vw;
+	background-image: url('lax1.jpeg');
+	background-repeat: no-repeat;
+	-webkit-background-size: 100vw;
+	-moz-background-size: 100vw;
+	-o-background-size: 100vw;
+	background-size: 100vw;
+}
+
+#video-container {
+	position: relative;
+	top: 100vh;
+	height: 100vh;
+	width: 100%;
+	background: url('background2.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: 100vw;
+	-moz-background-size: 100vw;
+	-o-background-size: 100vw;
+	background-size: 100vw;
+}
+
+.nav-wrapper {
+	background-color: black !important;
+}
+
+.nav-wrapper ul a {
+	font-size: 1.5em;
+	padding-right: 3em;
+}
+
+h1	{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 10em;
+	text-shadow: 2px 0 white, 0 -2px white, -2px 0 white, 0 2px white;
+}
+
+h2 { 
+	font-size: 6em;
+}
  
+h2, h3, p, a {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+
+p {
+	color: white;
+	margin-right: 10em;
+	margin-left: 10em;
+}
